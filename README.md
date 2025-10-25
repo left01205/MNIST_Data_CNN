@@ -1,7 +1,7 @@
 
 -----
 
-# MNIST Handwritten Digit Recognition with CNNs 🧠
+# MNIST Handwritten Digit Recognition with CNNs 
 
 This repository provides two distinct implementations of a Convolutional Neural Network (CNN) designed to classify handwritten digits from the famous MNIST dataset. The primary goal of this project is to serve as an educational tool, offering a side-by-side comparison of a high-level framework implementation with a fundamental, from-scratch version.
 
@@ -29,10 +29,10 @@ This version represents the standard, practical approach to building a CNN. It l
 
 ### 2\. NumPy (From-Scratch) Version (`MNIST_CNN_Primitive.py`)
 
-This implementation is purely for educational purposes. It builds the entire CNN from the ground up using only NumPy for numerical operations. Every layer (`Conv2D`, `MaxPooling2D`, `Dense`) and the entire backpropagation algorithm is written from scratch.
+This implementation is purely for educational purposes. It builds the entire CNN from the ground up using only NumPy for numerical operations. Every layer (`Conv2D`, `MaxPooling2D`, `Dense`) and the entire backpropagation algorithm are written from scratch.
 
   * **Technology**: Python, NumPy
-  * **Performance**: Significantly slower than the TensorFlow version. It demonstrates a working implementation but is not optimized for speed.
+  * **Performance**: Significantly slower than the TensorFlow version. It demonstrates a working implementation but is not optimised for speed.
   * **Best for**: Gaining a deep, fundamental understanding of how a CNN works mathematically.
 
 -----
@@ -89,7 +89,7 @@ python MNIST_CNN_Keras.py
 
 ### Running the NumPy (From-Scratch) Model
 
-This script will first download the original MNIST dataset files. It then builds and trains the from-scratch model. **Note: This will be much slower than the TensorFlow version.**
+This script will first download the original MNIST dataset files. It then builds and trains the model from scratch. **Note: This will be much slower than the TensorFlow version.**
 
 ```sh
 python MNIST_CNN_Primitive.py
